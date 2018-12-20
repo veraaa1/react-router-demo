@@ -1,0 +1,48 @@
+/* main{
+   width: 100%;
+   margin-top: 15px;
+} */
+/* .main-inner{
+    width: 946px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding:5px 10px;
+} */
+.home .topics{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+}
+.home .topics>h3{
+    margin: 0;
+    line-height: 38px;
+    size: 14px;
+}
+.home .topics >.topic-list{
+ width: 700px;
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+
+}
+.topics >.topic-list>li{
+    width: 80px;
+    height: 38px;
+}
+.topics >.topic-list>li>a{
+    width: 100%;
+    display: block;
+    color: #71777c;
+    text-align: center;
+    line-height: 38px;
+    font-size: 12px;
+}
+.topics >.topic-list>li>.active{
+    color: #007fff;
+}
+.topics >.topic-list>li>a:hover{
+    color: #007fff;
+}

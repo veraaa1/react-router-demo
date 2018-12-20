@@ -1,0 +1,51 @@
+@keyframes a {
+    0%{top: 40%}
+    50%{top:38%}
+    100%{top: 40%}
+}
+.where-is-pandafish{
+    width: 484px;
+    height: 460px;
+    position: relative;
+    margin: 0 auto;
+}
+.bg{
+    width: 484px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.panda{
+    width: 131px;
+    position: absolute;
+    left: 34%;
+    z-index: 2;
+    animation: a 2s ease-in-out alternate infinite
+}
+.sea{
+    width: 619px;
+    position: absolute;
+    left: -14%;
+    bottom: 3.3%;
+    z-index: 3;
+    opacity: 0.8;
+}
+.lang{
+    width: 312px;
+    position: absolute;
+    left: 14%;
+    bottom: 14%;
+    z-index: 4;
+    opacity: 0.6;
+}
+.back{
+    display: block;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #007fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+}
